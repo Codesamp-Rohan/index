@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}/*
+.image_bg{
+    filter: brightness(80%);
+}*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 18px;
+}
+.nav>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav>a:hover{
+    text-decoration:underline;
+    color: #000;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:150px;
+    padding-bottom: 50px;
+}
+.container>h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+#search{
+    width: 540px;
+    height: 46px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 34px;
+    padding-left: 43px;
+    border: 1px solid black;
+}
+#searchlogo{
+    width: 16px;
+    height: 16px;
+    margin-left: 449px;
+    margin-top: -62px;
+ }
+ #miclogo{
+    width: 20px;
+    height: 20px;
+    margin-left: 984px;
+    margin-top: -20px;
+ }
+ .bubbles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+ }
+ span{
+    text-align: center;
+ }
+ .b4>img{
+    width: 50px;
+    height: 50px;
+ }
